@@ -9,3 +9,8 @@ def index(request):
 
 
     return render(request,'index.html')
+
+def landing_page(request):
+
+
+    return render(request,'all-temp/landing_page.html')
