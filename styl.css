@@ -1,4 +1,11 @@
 .back{
   background-image: url('punisher.jpg');
   height: 500px;
+  background-size: cover;
+}
+img{
+  width: 100px;
+}
+body{
+  color: white;
 }
