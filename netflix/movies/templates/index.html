@@ -1,1 +1,9 @@
-<h1>Hello world</h1>
+{%extends 'all-temp/base.html'%}
+{% load bootstrap3 %}
+{% load staticfiles %}
+
+
+{%block content%}
+    {{bock.super}}
+    <img src="{{ STATIC_URL }}img/logo.png"" alt="hahhaa">
+{%endblock%}
