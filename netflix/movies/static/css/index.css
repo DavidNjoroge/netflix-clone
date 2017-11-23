@@ -1,7 +1,28 @@
-body {
+.bg{
     background-image: url("/static/images/background.jpg");
+    opacity: 0.9;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* z-index: 10; */
+    background-image: -webkit-gradient(linear,left top,right top,color-stop(20%,rgba(0,0,0,.8)),color-stop(85%,rgba(0,0,0,0)));
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+    background-image: linear-gradient(to right,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+    zoom: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
 }
 
-h1{
-    color: blue;
+.warpper .bg{
+
 }
